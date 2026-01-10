@@ -1,0 +1,32 @@
+# === Java / Maven ===
+target/
+*.class
+*.log
+
+# === IDEs ===
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# === Node / Frontend ===
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# === C / TUI ===
+*.o
+*.a
+*.so
+*.out
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Env ===
+.env
+.env.*
