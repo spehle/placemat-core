@@ -16,3 +16,10 @@ spring:
   flyway:
     enabled: true
     locations: classpath:db/migration
+
+app:
+  security:
+    jwt:
+      secret: "CHANGE_ME_DEV_ONLY_CHANGE_ME_DEV_ONLY_32+"
+      issuer: "placemat-core"
+      ttl-seconds: 3600
