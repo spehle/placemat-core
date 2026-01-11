@@ -1,0 +1,10 @@
+<h1>placemat frontend spike</h1>
+
+<button (click)="callMe()">Call /api/auth/me</button>
+
+<pre>{{ result }}</pre>
+
+<hr>
+
+<button (click)="login()">Login as admin/admin</button>
+<p><strong>Token:</strong> {{ token ? (token | slice:0:30) + '…' : '(none)' }}</p>
