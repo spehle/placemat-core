@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: placemat-core-backend
+
+  profiles:
+    default: dev
+
+  messages:
+    basename: i18n/messages
+    encoding: UTF-8
+
+server:
+  port: 8080
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
